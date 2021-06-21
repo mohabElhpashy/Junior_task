@@ -1,0 +1,44 @@
+.ProductDetails {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 40px;
+  margin: auto;
+}
+.Details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 330px;
+}
+.Details div {
+  margin-top: 20px;
+}
+
+.Sizes {
+  color: #1d1f22;
+  /* border: 1px solid #1d1f22; */
+  width: 63px;
+  height: 45px;
+  margin-left: 5px;
+  background-color: white;
+  font: Source Sans Pro;
+  font-weight: 400;
+
+  border: 1px solid #a6a6a6;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 18px;
+}
+.Sizes:hover {
+  cursor: pointer;
+}
+
+.SmallImages {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}

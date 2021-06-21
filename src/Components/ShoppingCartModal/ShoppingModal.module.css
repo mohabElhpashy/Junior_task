@@ -1,0 +1,52 @@
+.ShoppingModal {
+  position: absolute;
+  top: 50px;
+  right: 108px;
+  width: 338px;
+  height: 430px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-bottom: 40px;
+  overflow-y: auto;
+}
+
+.Footer {
+  flex-direction: row;
+  justify-content: space-around;
+}
+.All_Products {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 133px;
+  margin-bottom: 20px;
+}
+
+.Products_behav {
+  width: 130px;
+}
+.Products_behav div {
+  margin-bottom: 20x;
+}
+.Size {
+  color: #1d1f22;
+  /* border: 1px solid #1d1f22; */
+  width: 49px;
+  height: 28px;
+  margin-left: 5px;
+  /* background-color: white; */
+  font: Source Sans Pro;
+  font-weight: 400;
+  border: 1px solid #a6a6a6;
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: gainsboro;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.Viewbag {
+  cursor: pointer;
+}

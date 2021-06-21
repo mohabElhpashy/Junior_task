@@ -1,0 +1,54 @@
+.Cart {
+  width: 100%;
+}
+.All_Products {
+  width: 65%;
+  height: 175px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 65px;
+  border-bottom: 1px solid gainsboro;
+  border-top: 1px solid gainsboro;
+
+  margin: auto;
+}
+.img_Buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.img_Buttons div {
+  margin-right: 20px;
+}
+.Products_behav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.price {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 18px;
+  /* or 75% */
+
+  display: flex;
+  align-items: center;
+
+  color: #1d1f22;
+}
+.Size {
+  width: 51px;
+  height: 31px;
+
+  background: #1d1f22;
+  border: 1px solid #1d1f22;
+  box-sizing: border-box;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
